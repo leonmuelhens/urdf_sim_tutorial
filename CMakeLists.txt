@@ -3,7 +3,7 @@ project(urdf_sim_tutorial)
 
 find_package(ament_cmake REQUIRED)
 
-install(DIRECTORY config launch urdf
+install(DIRECTORY launch urdf
   DESTINATION share/${PROJECT_NAME})
 
 ament_package()
